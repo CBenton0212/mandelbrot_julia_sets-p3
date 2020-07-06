@@ -7,7 +7,7 @@
 
 We can visualize the Mandelbrot Set by letting each pixel represent a complex number, _c_, where the real and imaginary components of _c_ are associated with the x and y positions of each pixel respectively. The color of each pixel is determined by the rate at with _c_ diverges; black pixels represent values which do not diverge while white pixels represent values which diverge quickly.
 
-A [Julia Set](https://en.wikipedia.org/wiki/Julia_set) is a set that corresponds to the Mandelbrot set for which the value of _c_ is held constant but the value of _z_ is variable (in contrast to the Mandelbrot set where _z_ is held constant at 0  + 0_i_ ). _z_ is determined by the complex number represented at each pixel in the image space, where x and y positions depict real and imaginary components of _z_.
+A [Julia Set](https://en.wikipedia.org/wiki/Julia_set) is a set that corresponds to the Mandelbrot set for which the value of _c_ is held constant but the value of _z_ is variable (in contrast to the Mandelbrot set where _z_ is held constant at 0  + 0 _i_ ). _z_ is determined by the complex number represented at each pixel in the image space, where x and y positions depict real and imaginary components of _z_.
 
 ### Requirements
 
