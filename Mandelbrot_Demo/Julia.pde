@@ -44,7 +44,7 @@ void drawJulia() {
 
 
 /*
- * Draw thge orbit of a given complex value, determined
+ * Draw the orbit of a given complex value, determined
  * by the mouse position, in the context of the standing
  * Julia set.
  */

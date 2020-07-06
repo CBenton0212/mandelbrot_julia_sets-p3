@@ -48,10 +48,12 @@ void draw() {
   if (mouseC) {
     float cr, ci;
 
-    if (mouseX < JULIA_START) cr = map(mouseX, MANDELBROT_START, MANDELBROT_END, -2, 2);
-    else cr = map(mouseX, JULIA_START, JULIA_END, -2, 2);
+    if (mouseX < JULIA_START)
+      cr = map(mouseX, MANDELBROT_START, MANDELBROT_END, -2, 2);
+    else
+      cr = map(mouseX, JULIA_START, JULIA_END, -2, 2);
+    
     ci = map(mouseY, 0, HEIGHT, 2, -2);
-
     C = new Complex(cr, ci);
     drawJulia();
   }

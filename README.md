@@ -1,5 +1,7 @@
 ## Mandelbrot and Julia Set Visualization
 
+![Mandelbrot image](./Mandelbrot_Demo/images/demo.png)
+
 ### Overview
 "The [Mandelbrot Set](https://en.wikipedia.org/wiki/Mandelbrot_set) is the set of complex numbers _c_ for which the function ![f_c(z) = z^2 + c](https://latex.codecogs.com/svg.latex?f_c%28z%29%20%3D%20z%5E2%20&plus;%20c) does not diverge when iterated from ![z = 0](https://latex.codecogs.com/svg.latex?z%20%3D%200) for which the sequence ![f_c(0)](https://latex.codecogs.com/svg.latex?f_c%280%29%2C%20f_c%28f_c%280%29%29), etc., remains bounded in absolute value" -Wikipedia
 
@@ -31,4 +33,4 @@ Enabling mouse control of the _c_ value allows you to move the mouse around the 
 
 Enabling the orbital display highlights the calculated values of ![f_c(z) = z^2 + c](https://latex.codecogs.com/svg.latex?f_c%28z%29%20%3D%20z%5E2%20&plus;%20c), where ![z_0 = c_{(x, y)}](https://latex.codecogs.com/gif.latex?z_0%20%3D%20c_%7B%28x%2C%20y%29%7D) and ![z_i = f_c(z_{i-1})](https://latex.codecogs.com/gif.latex?z_i%20%3D%20f_c%28z_%7Bi-1%7D%29)
 
-
+![Orbit image](./Mandelbrot_Demo/images/orbit_demo.png)
